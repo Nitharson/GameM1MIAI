@@ -1,0 +1,13 @@
+class Personne:
+    def __init__(self, nom, age):
+        self.nom = nom
+        self.age = age
+        
+    def dire_bonjour(self):
+        print("Bonjour, je m'appelle", self.nom, "et j'ai", self.age, "ans.")
+
+# créer un objet "Personne" avec le nom "Alice" et l'âge 25
+alice = Personne("Alice", 25)
+
+# afficher un message de salutation
+alice.dire_bonjour()
